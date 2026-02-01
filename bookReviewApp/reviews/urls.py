@@ -1,15 +1,20 @@
+from django.urls import path
 
-from django.urls import path, include
-
-import reviews
-from reviews.views import recent_reviews, review_details
+from reviews.views import (
+    recent_reviews,
+    review_details,
+    review_create,
+    review_edit,
+    review_delete,
+)
 
 app_name = 'reviews'
 
-review_patterns = [
-    path('recent/', recent_reviews, name='recent'),
-    path('<int:pk>/', review_details, name='details'),
-]
 urlpatterns = [
-    path('', include(review_patterns)),
+    path('', recent_reviews, name='list'),        # <-- MAIN
+    path('recent/', recent_reviews, name='recent'),  # <-- optional
+    path('create/', review_create, name='create'),
+    path('<int:pk>/', review_details, name='details'),
+    path('<int:pk>/edit/', review_edit, name='edit'),
+    path('<int:pk>/delete/', review_delete, name='delete'),
 ]

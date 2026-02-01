@@ -49,6 +49,10 @@ class Book(models.Model):
 
     publisher = models.CharField(max_length=150, blank=True)
 
+    tags = models.ManyToManyField(
+        "Tag"
+    )
+
     def save(self, *args, **kwargs):
         if not self.slug:
             self.slug = slugify(f'{self.title}-{self.publisher}')
@@ -56,3 +60,11 @@ class Book(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class Tag(models.Model):
+    name = models.CharField(max_length=50)
+    books = models.ManyToManyField(Book)
+
+    def __str__(self):
+        return self.name

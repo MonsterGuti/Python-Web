@@ -1,3 +1,4 @@
+
 {% extends 'common/base.html' %}
 
 {% block title %}{{ page_title }}{% endblock %}
@@ -5,7 +6,16 @@
 {% block content %}
 <div class="container">
     <h1 class="mb-4">{{ page_title }}</h1>
+    <a href="{% url 'reviews:create' %}" class="btn btn-success mb-3">Create Review</a>
     <div class="row">
+        <form method="GET" class="form-inline mb-4">
+            <div class="input-group">
+                <input type="text" name="query" class="form-control" placeholder="Search books..." value="{{ request.GET.query|default:'' }}">
+                <div class="input-group-append ms-2">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </div>
+            </div>
+        </form>
         {% for book in books %}
         <div class="col-md-4 mb-4">
             <div class="card">
