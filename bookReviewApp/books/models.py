@@ -1,6 +1,8 @@
 from django.db import models
 from django.template.defaultfilters import slugify
 
+from books.validators import RangeValidator
+
 
 class Book(models.Model):
     class GenreChoices(models.TextChoices):
@@ -19,12 +21,17 @@ class Book(models.Model):
     price = models.DecimalField(
         max_digits=6,
         decimal_places=2,
+        validators = [
+            RangeValidator(min_value=0, max_value=100, message = "Price must be between 0 and 100"),
+        ],
     )
 
     isbn = models.CharField(
         max_length=12,
         unique=True,
     )
+
+    cover_image = models.ImageField(null=True, blank=True)
 
     genre = models.CharField(
         max_length=20,
