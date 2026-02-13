@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<main>
+    <ul>
+        {% for d in destinations %}
+            <li>
+                <a href="{% url 'destination:detail' d.slug %}">
+                    {{ d.name }} - {{ d.country }}</a>
+            </li>
+        {% empty %}
+            <p>No destinations</p>
+        {% endfor %}
+    </ul>
+</main>
+</body>
+</html>
