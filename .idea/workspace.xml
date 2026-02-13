@@ -30,6 +30,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MonsterGuti"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/MonsterGuti/Python-Web",
@@ -110,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1770999676313</updated>
       <workItem from="1770999677392" duration="11815000" />
-      <workItem from="1771013225382" duration="394000" />
+      <workItem from="1771013225382" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="feat: added more solutions">
       <option name="closed" value="true" />
