@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e2107cb-f9be-4f33-a938-8a9572fc3fc7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/classBasedViewsBasics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/choices.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/destinations/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/destinations/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviews/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin_home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/destinations/destination_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/reviews/review_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/teen_welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/travelers/traveler_confirm_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/travelers/traveler_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travelers/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travelers/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travelers/validators.py" afterDir="false" />
-    </list>
+    <list default="true" id="2e2107cb-f9be-4f33-a938-8a9572fc3fc7" name="Changes" comment="feat: added more solutions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +12,7 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_C:/Users/User/Documents/GitHub/Django Basics/classBasedViewsBasics" value="39d5hwac33YJQ2iBUsIQf5Hs40f" />
       <entry key="_C:/Users/User/Documents/GitHub/classBasedViewsBasics" value="39ceEj27EFKdy7tUKdNyYM8Eoqi" />
     </persistenceIdMap>
   </component>
@@ -52,9 +30,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MonsterGuti/Python-Web",
+    "accountId": "6e138230-9dc6-4d3d-8857-1fe72ce1b784"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="39ceEj27EFKdy7tUKdNyYM8Eoqi" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -70,6 +54,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/User/Documents/GitHub/Django Basics/classBasedViewsBasics",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,11 +110,33 @@
       <option name="presentableId" value="Default" />
       <updated>1770999676313</updated>
       <workItem from="1770999677392" duration="11815000" />
+      <workItem from="1771013225382" duration="394000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: added more solutions">
+      <option name="closed" value="true" />
+      <created>1771013416025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771013416025</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: added more solutions">
+      <option name="closed" value="true" />
+      <created>1771013620040</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771013620040</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: added more solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added more solutions" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
