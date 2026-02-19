@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<main>
+    <ul>
+        {% for r in reviews %}
+            <li>
+                <a href="{% url 'review:detail' r.pk %}">
+                    {{ r.author }} - {{ r.rating }}
+                </a>
+            </li>
+        {% empty %}
+            <p>No reviews yet</p>
+        {% endfor %}
+    </ul>
+</main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="Black">
+    <option name="sdkName" value="Python 3.14 (classBasedViewsBasics)" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 virtualenv at C:\Users\User\Documents\GitHub\Django Basics\bookReviewApp\.venv" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.14 (Exercise_Django_models_basics)" project-jdk-type="Python SDK" />
+>>>>>>> 2edb12ebef56a69f12f06d36eeeee00141dd40f7
+</project>
